@@ -1,0 +1,48 @@
+$navy: #00004d;
+$grey: #52527a;
+$scarlet: #E34234;
+
+
+.form{
+    text-align: center;
+
+    &__input-wrapper{
+        width: 100%;
+
+        input{
+            border: none;
+            border-bottom: solid 1.5px lighten($grey, 25%);
+            background: transparent;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 1.5rem;
+            text-transform: capitalize;
+            color: $scarlet;
+            margin-top: 5vh;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            width: 35%;
+            text-align: center;
+        }
+        input::placeholder{
+            color: lighten($scarlet, 20%);
+        }
+    }
+    &__submit{
+        margin-top: 5vh;
+        width: 20%;
+        height: 4vh;
+        background: transparent;
+        font-family: 'IBM Plex Sans Condensed', sans-serif;
+        font-size: 1rem;
+        box-shadow: none;
+        border: 1.5px solid lighten($grey, 25%);
+        color: $grey;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    &__submit:hover{
+        transition: .4s;
+        background: lighten($grey, 50%);
+        color: darken($scarlet, 40%);
+    }
+}

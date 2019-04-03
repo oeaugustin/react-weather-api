@@ -1,0 +1,35 @@
+.form {
+  text-align: center; }
+  .form__input-wrapper {
+    width: 100%; }
+    .form__input-wrapper input {
+      border: none;
+      border-bottom: solid 1.5px #9494b7;
+      background: transparent;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 1.5rem;
+      text-transform: capitalize;
+      color: #E34234;
+      margin-top: 5vh;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      width: 35%;
+      text-align: center; }
+    .form__input-wrapper input::placeholder {
+      color: #ef958e; }
+  .form__submit {
+    margin-top: 5vh;
+    width: 20%;
+    height: 4vh;
+    background: transparent;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 1rem;
+    box-shadow: none;
+    border: 1.5px solid #9494b7;
+    color: #52527a;
+    border-radius: 5px;
+    cursor: pointer; }
+  .form__submit:hover {
+    transition: .4s;
+    background: #e1e1eb;
+    color: #420e09; }

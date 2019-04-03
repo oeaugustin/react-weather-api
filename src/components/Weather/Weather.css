@@ -1,0 +1,17 @@
+.weather__wrapper {
+  margin-top: 5vh;
+  padding-left: 25%;
+  padding-right: 25%;
+  border-top: 0.5px solid #00004d; }
+
+.weather__results {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #00004d; }
+  .weather__results span {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.25rem;
+    color: #E34234;
+    text-transform: capitalize;
+    margin-left: 5px; }

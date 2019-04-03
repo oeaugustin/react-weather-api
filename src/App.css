@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i");
+.container {
+  margin-top: 2vh;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-bottom: 5vh;
+  border-radius: 10px;
+  background: whitesmoke; }

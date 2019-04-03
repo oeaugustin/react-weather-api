@@ -1,0 +1,27 @@
+$navy: #00004d;
+$grey: #52527a;
+$scarlet: #E34234;
+
+.weather{
+    &__wrapper{
+        margin-top: 5vh;
+        padding-left: 25%;
+        padding-right: 25%;
+        border-top: .5px solid $navy;
+    };
+
+    &__results{
+        font-family: 'IBM Plex Sans Condensed', sans-serif;
+        text-align: center;
+        font-size: 1.25rem;
+        color: $navy;
+
+        span{
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 1.25rem;
+            color: $scarlet;
+            text-transform: capitalize;
+            margin-left: 5px;
+        }
+    }
+};

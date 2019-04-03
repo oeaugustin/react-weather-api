@@ -1,0 +1,10 @@
+.heading {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  text-align: center;
+  margin-top: 5rem;
+  padding-top: 2vh; }
+  .heading h1 {
+    color: #00004d;
+    font-family: 'IBM Plex Sans', sans-serif; }
+  .heading h2 {
+    color: #52527a; }
